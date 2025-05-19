@@ -1,11 +1,6 @@
-a[href ='https://youtube.com/']
-{
+a[href^="https"] {
   color: red;
 }
-a[href ='https://validator.w3.org/']
-{
-  color: red;
-}
-.holder ul ~ p {
+.holder ul + p {
   font-size: 24px;
 }
